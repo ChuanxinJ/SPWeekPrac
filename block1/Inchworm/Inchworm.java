@@ -16,7 +16,7 @@ public class Inchworm {
         for(int i = 0; i <= branch; i+=leaf){
             leafPostion.add(i);
         }
-        System.out.println(leafPostion);
+        // System.out.println(leafPostion);
 
         int leafCount = 0;
         for(int i = 0; i <= branch; i+=rest){
@@ -24,7 +24,7 @@ public class Inchworm {
                 leafCount += 1;
             }
         }
-        System.out.println(leafPostion);
+        // System.out.println(leafPostion);
 
         return leafCount;
     }
